@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- **************************NAV BAR********* -->
+<div id="content" style="display: none" ></div>
+    <nav class="navbar">
+    <div class="brand-title" id="logo"><a href="#" onclick="reloadPage()">✨</a></div>
+    <a href="javascript:void(0);" class="toggle-button" id="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links" id="navbar-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Let's Talk</a></li>
+            <li><a href="#login">LogIn</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- **************BODY PART***************** -->
+<section id="home">
+    <div class="container">
+        <div class="text_con">
+            <h1>My Goal is to make the client's </br> </bt><span>imagination into a 
+                reality</span></h1>
+            <h3>Designer</h3>
+            <h3>Font-End Developer</h3>
+            <h3>Back-End Developer</h3>
+            <h3>Full-Stuck Developer</h3>
+        </div>
+        <div class="video" >
+            <video id="myVideo" width="100%" height="100%" controls>
+                <source src="img/showcase.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <!-- <button onclick="playVideo()">Play</button>
+            <button onclick="pauseVideo()">Pause</button> -->
+        </div>
+    </div>
+</section>
+<!-- ******************************ABOUT******************* -->
+<section id="about">
+    <div class="about_con">
+        <div class="about_text">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid culpa rem reiciendis eius, ducimus repudiandae 
+                provident accusantium aliquam quam aut perferendis porro 
+                obcaecati vitae praesentium est laborum natus vero beatae 
+                eligendi. Earum aspernatur iure ipsa fugiat atque, nisi soluta
+            </p>
+        </div>
+        
+        <div class="about_img">
+            <img src="img\sajon.png" alt="About Image">
+        </div>
+        </div>
+        <div class="social_icon">
+            <a href="https://www.facebook.com/profile.php?id=100076012159979" target="_blank"><img src="img/facebook.png" alt=""></a>
+            <a href="https://x.com/Crocoder007" target="_blank"><img src="img/x.png" alt=""></a>
+            <a href="https://github.com/TIM-Coder07" target="_blank"><img src="img/github.png" alt=""></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="img/social.png" alt=""></i></a>
+          </div>
+    </div>
+</section>
+<!-- ******************************COMBO************************ -->
+<section id="combo">
+    <div class="combo_head">
+        <h1>You'll catch me doing a combo of these:</h1>
+    </div>
+    <div class="menu-container">
+        <div class="menu-header">Things I Create</div>
+        <ul class="menu-list">
+          <li>All Websites</li>
+          <li>E-Commerce</li>
+          <li>Landing Page</li>
+          <li>Web Applications</li>
+          <li>PSD to Website</li>
+          <li>Wordpress</li>
+          <li>Design System</li>
+        </ul>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-header">Tools I Use</div>
+        <ul class="menu-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>javasCript</li>
+            <li>SEO</li>
+        </ul>
+      </div>
+
+      <div class="menu-container">
+        <div class="menu-header">Things I Create</div>
+        <ul class="menu-list">
+          <li>React.js</li>
+          <li>Next.js</li>
+          <li>Node.js</li>
+          <li>Wordpress</li>
+        </ul>
+      </div>
+</section>
+<!-- ********************************PROJECT************************ -->
+<section class="projects-section">
+    <h1>Recent <span>Projects</span> ✨</h1>
+    <div class="project-card">
+      <img src="img/Screenshot (11).png" alt="Project Screenshot">
+      <div class="project-content">
+        <h2 class="project-title">AI Assignment Manager</h2>
+        <p class="project-description">
+          A web-based software that helps students manage their assignments and submit them to their teachers. AI is used to grade assignments and provide feedback.
+        </p>
+        <div class="tech-stack">
+          <span>Next.js</span>
+          <span>TypeScript</span>
+          <span>Tailwind</span>
+          <span>Node</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+        </div>
+        <div class="project-buttons">
+          <a href="#" class="live-demo">Live Demo</a>
+          <a href="#" class="view-code">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects-section">
+    <div class="project-card">
+      <img src="img/Screenshot (11).png" alt="Project Screenshot">
+      <div class="project-content">
+        <h2 class="project-title">AI Assignment Manager</h2>
+        <p class="project-description">
+          A web-based software that helps students manage their assignments and submit them to their teachers. AI is used to grade assignments and provide feedback.
+        </p>
+        <div class="tech-stack">
+          <span>Next.js</span>
+          <span>TypeScript</span>
+          <span>Tailwind</span>
+          <span>Node</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+        </div>
+        <div class="project-buttons">
+          <a href="#" class="live-demo">Live Demo</a>
+          <a href="#" class="view-code">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section">
+    <div class="project-card">
+      <img src="img/Screenshot (11).png" alt="Project Screenshot">
+      <div class="project-content">
+        <h2 class="project-title">AI Assignment Manager</h2>
+        <p class="project-description">
+          A web-based software that helps students manage their assignments and submit them to their teachers. AI is used to grade assignments and provide feedback.
+        </p>
+        <div class="tech-stack">
+          <span>Next.js</span>
+          <span>TypeScript</span>
+          <span>Tailwind</span>
+          <span>Node</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+        </div>
+        <div class="project-buttons">
+          <a href="#" class="live-demo">Live Demo</a>
+          <a href="#" class="view-code">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="contact">
+    <div class="cta-container">
+        <h1 class="cta-heading">Level Up Your Brand with Empathic Visuals? <span>✨</span></h1>
+        <h1 class="cta-heading"><span>It's time to </span>make it happen! <span>✨</span></h1>
+        <a href="#" onclick="openWhatsApp()" class="cta-button">Let's Talk</a>
+        <div class="cta-illustration">
+          <img src=" img/contact.svg" alt="Illustration">
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="con_info">
+          <p>Connect</p>
+          <h4><a href="mailto:sajonwdd72566@gmail.com?subject=Your%20Code&body=Your%20code%20is%2012345">sajonwdd72566@gmail.com</a></h4>
+        </div>
+        <div class="social-container">
+          <div class="con_icon_p">
+            <p>Social</p>
+          </div>
+          <div class="con_icon">
+            <a href="https://www.facebook.com/profile.php?id=100076012159979" target="_blank"><img src="img/facebook.png" alt=""></a>
+            <a href="https://x.com/Crocoder007" target="_blank"><img src="img/x.png" alt=""></a>
+            <a href="https://github.com/TIM-Coder07" target="_blank"><img src="img/github.png" alt=""></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="img/social.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      
+</section>
+
+    <!-- <script> CONNECTION*********** -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-qPLl+BNEy3F98iQMQOlAOjI6aBkoft5Y53IEcCZyIrEuCmGcylj1M/oVZZG6Av4N" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
